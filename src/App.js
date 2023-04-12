@@ -87,6 +87,15 @@ function Portfolio() {
         </ul>
       </section>
 
+      <section id="certifications">
+        <h2>Certifications</h2>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+        <p>...</p>
+      </section>
+
       <section id="contact">
         <h2>Contact Me</h2>
         <form action="#" method="post">

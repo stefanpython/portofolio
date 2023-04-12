@@ -14,6 +14,7 @@ function Navbar() {
     const about = document.getElementById("about");
     const projects = document.getElementById("projects");
     const skills = document.getElementById("skills");
+    const certifications = document.getElementById("certifications");
     const contact = document.getElementById("contact");
 
     const navLinks = document.querySelectorAll("nav ul li a");
@@ -41,6 +42,12 @@ function Navbar() {
       contact.offsetTop <= window.pageYOffset + 350 &&
       contact.offsetTop + contact.offsetHeight > window.pageYOffset + 350
     ) {
+      navLinks[4].classList.add("active");
+    } else if (
+      certifications.offsetTop <= window.pageYOffset + 350 &&
+      certifications.offsetTop + certifications.offsetHeight >
+        window.pageYOffset + 350
+    ) {
       navLinks[3].classList.add("active");
     }
   };
@@ -57,6 +64,9 @@ function Navbar() {
           </li>
           <li>
             <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#certifications">Certifications</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
