@@ -23,25 +23,25 @@ function Navbar() {
     });
 
     if (
-      contact.offsetTop <= window.pageYOffset + 50 &&
-      contact.offsetTop + contact.offsetHeight > window.pageYOffset + 50
+      about.offsetTop <= window.pageYOffset + 450 &&
+      about.offsetTop + about.offsetHeight > window.pageYOffset + 450
     ) {
-      navLinks[3].classList.add("active");
+      navLinks[0].classList.add("active");
     } else if (
-      skills.offsetTop <= window.pageYOffset + 50 &&
-      skills.offsetTop + skills.offsetHeight > window.pageYOffset + 50
-    ) {
-      navLinks[2].classList.add("active");
-    } else if (
-      projects.offsetTop <= window.pageYOffset + 50 &&
-      projects.offsetTop + projects.offsetHeight > window.pageYOffset + 50
+      projects.offsetTop <= window.pageYOffset + 450 &&
+      projects.offsetTop + projects.offsetHeight > window.pageYOffset + 450
     ) {
       navLinks[1].classList.add("active");
     } else if (
-      about.offsetTop <= window.pageYOffset + 50 &&
-      about.offsetTop + about.offsetHeight > window.pageYOffset + 50
+      skills.offsetTop <= window.pageYOffset + 450 &&
+      skills.offsetTop + skills.offsetHeight > window.pageYOffset + 450
     ) {
-      navLinks[0].classList.add("active");
+      navLinks[2].classList.add("active");
+    } else if (
+      contact.offsetTop <= window.pageYOffset + 450 &&
+      contact.offsetTop + contact.offsetHeight > window.pageYOffset + 450
+    ) {
+      navLinks[3].classList.add("active");
     }
   };
 
