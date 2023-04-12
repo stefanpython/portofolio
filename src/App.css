@@ -195,3 +195,7 @@ footer ul li a {
 footer ul li a:hover {
   color: #e91e63;
 }
+
+i {
+  font-size: 120px;
+}

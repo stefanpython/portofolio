@@ -50,13 +50,36 @@ function Portfolio() {
       <section id="skills">
         <h2>Skills</h2>
         <ul>
-          <li>
-            Programming Languages: List your programming language expertise
-          </li>
-          <li>
-            Tools and Technologies: List your proficiency in tools and
-            technologies
-          </li>
+          <li>Programming Languages, Tools and Technologies used:</li>
+
+          <div className="tools--icons">
+            <i class="devicon-javascript-plain colored"></i>
+
+            <i class="devicon-react-original-wordmark colored"></i>
+
+            <i class="devicon-visualstudio-plain colored"></i>
+
+            <i class="devicon-npm-original-wordmark colored"></i>
+
+            <i class="devicon-firebase-plain-wordmark colored"></i>
+
+            <i class="devicon-html5-plain-wordmark colored"></i>
+
+            <i class="devicon-css3-plain-wordmark colored"></i>
+
+            <i class="devicon-github-original-wordmark colored"></i>
+
+            <i class="devicon-linux-plain colored"></i>
+
+            <i class="devicon-nodejs-plain colored"></i>
+
+            <i class="devicon-express-original-wordmark colored"></i>
+
+            <i class="devicon-webpack-plain colored"></i>
+
+            <i class="devicon-sqlite-plain colored"></i>
+          </div>
+
           <li>
             Soft Skills: List your interpersonal skills, communication, team
             management, leadership, and problem-solving skills
