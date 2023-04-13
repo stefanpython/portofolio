@@ -235,3 +235,11 @@ i {
   margin-top: 10px;
   margin-left: -18px;
 }
+
+section h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+li {
+  font-family: "Open Sans", sans-serif;
+}
