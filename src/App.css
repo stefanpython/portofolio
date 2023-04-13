@@ -213,15 +213,16 @@ i {
 
 .certification--container a {
   text-decoration: none;
-  color: black;
+  color: rgb(189, 123, 1);
 }
 
 .certification--container img {
   height: 100px;
   border-radius: 10px;
+  box-shadow: 10px 5px 11px rgb(231, 108, 108);
 }
 
-.certification--container img:hover {
+.cert--link:hover {
   transform: scale(1.1);
   transition: 0.7s ease-in-out;
 }
@@ -229,6 +230,7 @@ i {
 .certification--container h3 {
   margin-top: 20px;
   margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
 }
 
 .theodinproject {
@@ -242,4 +244,22 @@ section h2 {
 
 li {
   font-family: "Open Sans", sans-serif;
+}
+
+.tools--icons p {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+#skills li {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+.soft--skills li {
+  font-family: "Montserrat", sans-serif !important;
+  border-radius: 5px;
 }

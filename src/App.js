@@ -53,37 +53,98 @@ function Portfolio() {
           <li>Programming Languages, Tools and Technologies I`ve used:</li>
 
           <div className="tools--icons">
-            <i className="devicon-javascript-plain colored"></i>
+            <div>
+              <i className="devicon-javascript-plain colored"></i>
+              <p>JavaScript</p>
+            </div>
 
-            <i className="devicon-react-original-wordmark colored"></i>
+            <div>
+              <i className="devicon-react-plain colored"></i>
+              <p style={{ marginLeft: "30px" }}>React</p>
+            </div>
 
-            <i className="devicon-visualstudio-plain colored"></i>
+            <div>
+              <i className="devicon-visualstudio-plain colored"></i>
+              <p>Visual Studio</p>
+            </div>
 
-            <i className="devicon-npm-original-wordmark colored"></i>
+            <div>
+              <i className="devicon-npm-original-wordmark colored"></i>
+              <p style={{ marginLeft: "30px" }}>NPM</p>
+            </div>
 
-            <i className="devicon-firebase-plain-wordmark colored"></i>
+            <div>
+              <i className="devicon-firebase-plain colored"></i>
+              <p>Firebase</p>
+            </div>
 
-            <i className="devicon-html5-plain-wordmark colored"></i>
+            <div>
+              <i className="devicon-html5-plain-wordmark colored"></i>
+              <p style={{ marginLeft: "27px" }}>Html5</p>
+            </div>
 
-            <i className="devicon-css3-plain-wordmark colored"></i>
+            <div>
+              <i className="devicon-css3-plain-wordmark colored"></i>
+              <p style={{ marginLeft: "30px" }}>CSS3</p>
+            </div>
 
-            <i className="devicon-github-original-wordmark colored"></i>
+            <div>
+              <i className="devicon-github-plain colored"></i>
+              <p style={{ marginLeft: "25px" }}>Github</p>
+            </div>
 
-            <i className="devicon-linux-plain colored"></i>
+            <div>
+              <i className="devicon-linux-plain colored"></i>
+              <p style={{ marginLeft: "25px" }}>Linux</p>
+            </div>
 
-            <i className="devicon-nodejs-plain colored"></i>
+            <div>
+              <i className="devicon-nodejs-plain colored"></i>
+              <p style={{ marginLeft: "22px" }}>NodeJS</p>
+            </div>
 
-            <i className="devicon-express-original-wordmark colored"></i>
+            <div>
+              <i className="devicon-express-original-wordmark colored"></i>
+              <p>Express</p>
+            </div>
 
-            <i className="devicon-webpack-plain colored"></i>
+            <div>
+              <i className="devicon-webpack-plain colored"></i>
+              <p>Webpack</p>
+            </div>
 
-            <i className="devicon-sqlite-plain colored"></i>
+            <div>
+              <i className="devicon-sqlite-plain colored"></i>
+              <p>SQLite</p>
+            </div>
           </div>
 
-          <li>
-            Soft Skills: List your interpersonal skills, communication, team
-            management, leadership, and problem-solving skills
-          </li>
+          <div className="soft--skills">
+            <h3>Soft Skills:</h3>
+            <li>
+              <b>Interpersonal skills:</b> I am able to work well with people
+              from different backgrounds and with diverse personalities. I am
+              skilled in building relationships, networking, and collaborating
+              effectively with others.
+            </li>
+            <li>
+              <b> Communication:</b> I possess excellent verbal and written
+              communication skills. I am able to convey complex ideas in a clear
+              and concise manner, and I am a proficient active listener.
+            </li>
+            <li>
+              <b>Leadership:</b> I possess strong leadership qualities, and I am
+              able to inspire and motivate others to achieve common goals. I am
+              skilled in setting a vision, communicating it effectively, and
+              leading by example.
+            </li>
+            <li>
+              <b>Problem-solving:</b> I have strong analytical skills and am
+              able to identify problems, generate creative solutions, and make
+              informed decisions. I am able to adapt to changing situations,
+              think critically, and make decisions based on data and facts.
+            </li>
+          </div>
         </ul>
       </section>
 
@@ -93,12 +154,20 @@ function Portfolio() {
         <div className="certification--container">
           <a href="https://certificates.cs50.io/e434c454-d200-4ccd-a308-ce32fb560d22.png?size=letter">
             <h3>CS50's Introduction to Computer Science:</h3>
-            <img src="images/cs50x.png" alt="cs50 logo" />
+            <img
+              className="cert--link"
+              src="images/cs50x.png"
+              alt="cs50 logo"
+            />
           </a>
 
           <a href="https://certificates.cs50.io/0608492f-e1b9-4169-8e36-c37a61101a3d.png?size=letter">
             <h3>CS50's Web Programming with Python and JavaScript:</h3>
-            <img src="images/cs50w.png" alt="cs50w logo" />
+            <img
+              className="cert--link"
+              src="images/cs50w.png"
+              alt="cs50w logo"
+            />
           </a>
 
           <div className="theodinproject">
