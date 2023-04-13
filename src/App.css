@@ -199,3 +199,12 @@ footer ul li a:hover {
 i {
   font-size: 100px;
 }
+
+.certification--container a {
+  text-decoration: none;
+}
+
+.certification--container img {
+  height: 100px;
+  border-radius: 10px;
+}
