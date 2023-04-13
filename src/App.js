@@ -31,44 +31,88 @@ function Portfolio() {
           <li>
             <h3>Global Chat</h3>
             <img src="images/chat-globe.png" alt="homepage" />
-            <p>Project Description 1</p>
-            <a href="#">View Project</a>
+            <br />
+            <p>
+              Chat application made with React for frontend and Firebase for
+              backend. Features: Gmail account login, Receive and send messages
+              in real-time, Upload files in chat, Emoticon button using
+              EmojiPicker, and others.
+            </p>
+            <a href="https://chatglobe-ac09d.web.app/">View Project</a>
           </li>
 
           <li>
             <h3>Shopping Cart</h3>
-            <img src="images/shopping-cart.png" alt="" />
-            <p>Project Description 2</p>
-            <a href="#">View Project</a>
+            <img src="images/shopping-cart.png" alt="homepage" />
+            <br />
+            <p>
+              Shopping Cart website made with React using props, hooks and api
+              from fakestoore.com. Features: Add items to cart, correctly update
+              number of items in cart, add/substract items from card using +/-
+              buttons, correctly update the total price.
+            </p>
+            <a href="https://stefanpython.github.io/shopping-cart-project/">
+              View Project
+            </a>
           </li>
 
           <li>
-            <h3>Calculator </h3>
+            <h3>Elemental Calculator </h3>
             <img src="images/calculator.png" alt="" />
-            <p>Project Description 3</p>
-            <a href="#">View Project</a>
+            <br />
+            <p>
+              Calculator application made with Vanilla Javascript. Features:
+              Add, Substract, Multiply, Divide numbers.
+            </p>
+            <a href="https://stefanpython.github.io/Calculator-Project/">
+              View Project
+            </a>
           </li>
 
           <li>
             <h3>Memory Card Game</h3>
             <img src="images/memory-card-game.png" alt="" />
-            <p>Project Description 3</p>
-            <a href="#">View Project</a>
+            <br />
+            <p>
+              Memory card game made with React. User must click an image and
+              collect points. If an images is clicked twice in a row, score is
+              resetted to 0. After each click the images are re-arranged
+              randomly.
+            </p>
+            <a href="https://stefanpython.github.io/memory_card-project/">
+              View Project
+            </a>
           </li>
 
           <li>
             <h3>DOMore To-Do List</h3>
             <img src="images/todolist.png" alt="" />
-            <p>Project Description 3</p>
-            <a href="#">View Project</a>
+            <br />
+            <p>
+              To-Do list made with Vanilla Javascript. Features: Add projects,
+              add tasks to specific project, mark tasks as important, add
+              due-date to each task, delete projets/tasks, display
+              finished/important/today/all tasks.
+            </p>
+            <a href="https://stefanpython.github.io/ToDoList-Project/">
+              View Project
+            </a>
           </li>
 
           <li>
             <h3>Battleship</h3>
             <img src="images/battleship.png" alt="" />
+            <br />
 
-            <p>Project Description 3</p>
-            <a href="#">View Project</a>
+            <p>
+              Battleship project made with Vanilla Javascript.Ships are placed
+              in random order on each board. Click on the enemy board and try to
+              sink their ships first. (Sometimes the boats have more "hp" - bug
+              or feature, depends on perspective).
+            </p>
+            <a href="https://stefanpython.github.io/Battleship/">
+              View Project
+            </a>
           </li>
         </ul>
       </section>
