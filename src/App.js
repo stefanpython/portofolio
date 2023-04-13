@@ -1,4 +1,5 @@
 import "./App.css";
+import "./Animation.css";
 import Navbar from "./components/Nav";
 
 function Portfolio() {
