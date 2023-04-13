@@ -92,12 +92,12 @@ function Portfolio() {
 
         <div className="certification--container">
           <a href="https://certificates.cs50.io/e434c454-d200-4ccd-a308-ce32fb560d22.png?size=letter">
-            <h3>CS50's Introduction to Computer Science</h3>
+            <h3>CS50's Introduction to Computer Science:</h3>
             <img src="images/cs50x.png" alt="cs50 logo" />
           </a>
 
           <a href="https://certificates.cs50.io/0608492f-e1b9-4169-8e36-c37a61101a3d.png?size=letter">
-            <h3>CS50’s Web Programming with Python and JavaScript</h3>
+            <h3>CS50's Web Programming with Python and JavaScript:</h3>
             <img src="images/cs50w.png" alt="cs50w logo" />
           </a>
 
