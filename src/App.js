@@ -29,18 +29,44 @@ function Portfolio() {
         <h2>Projects</h2>
         <ul>
           <li>
-            <h3>Project Title 1</h3>
+            <h3>Global Chat</h3>
+            <img src="images/chat-globe.png" alt="homepage" />
             <p>Project Description 1</p>
-
             <a href="#">View Project</a>
           </li>
+
           <li>
-            <h3>Project Title 2</h3>
+            <h3>Shopping Cart</h3>
+            <img src="images/shopping-cart.png" alt="" />
             <p>Project Description 2</p>
             <a href="#">View Project</a>
           </li>
+
           <li>
-            <h3>Project Title 3</h3>
+            <h3>Calculator </h3>
+            <img src="images/calculator.png" alt="" />
+            <p>Project Description 3</p>
+            <a href="#">View Project</a>
+          </li>
+
+          <li>
+            <h3>Memory Card Game</h3>
+            <img src="images/memory-card-game.png" alt="" />
+            <p>Project Description 3</p>
+            <a href="#">View Project</a>
+          </li>
+
+          <li>
+            <h3>DOMore To-Do List</h3>
+            <img src="images/todolist.png" alt="" />
+            <p>Project Description 3</p>
+            <a href="#">View Project</a>
+          </li>
+
+          <li>
+            <h3>Battleship</h3>
+            <img src="images/battleship.png" alt="" />
+
             <p>Project Description 3</p>
             <a href="#">View Project</a>
           </li>
@@ -51,7 +77,7 @@ function Portfolio() {
         <h2>Skills</h2>
         <ul>
           <li>Programming Languages, Tools and Technologies I`ve used:</li>
-
+          <hr />
           <div className="tools--icons">
             <div>
               <i className="devicon-javascript-plain colored"></i>
@@ -120,7 +146,8 @@ function Portfolio() {
           </div>
 
           <div className="soft--skills">
-            <h3>Soft Skills:</h3>
+            <h3> &#9776; Soft Skills:</h3>
+            <hr style={{ marginTop: "15px" }} />
             <li>
               <b>Interpersonal skills:</b> I am able to work well with people
               from different backgrounds and with diverse personalities. I am

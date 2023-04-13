@@ -219,7 +219,7 @@ i {
 .certification--container img {
   height: 100px;
   border-radius: 10px;
-  box-shadow: 10px 5px 11px rgb(231, 108, 108);
+  box-shadow: 10px 5px 11px rgb(128, 108, 108);
 }
 
 .cert--link:hover {
@@ -254,6 +254,10 @@ li {
   align-items: center;
 }
 
+.tools--icons {
+  margin-top: 10px;
+}
+
 #skills li {
   font-size: 20px;
   font-family: "Lato", sans-serif;
@@ -262,4 +266,9 @@ li {
 .soft--skills li {
   font-family: "Montserrat", sans-serif !important;
   border-radius: 5px;
+}
+
+#projects img {
+  width: 50%;
+  margin-left: 25%;
 }
