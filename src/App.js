@@ -3,7 +3,7 @@ import Navbar from "./components/Nav";
 
 function Portfolio() {
   return (
-    <div>
+    <div className="portofolio--container">
       <h1>aaaaaaaa</h1>
       <h1>aaaaaaaa</h1>
       <h1>aaaaaaaa</h1>
@@ -50,7 +50,7 @@ function Portfolio() {
       <section id="skills">
         <h2>Skills</h2>
         <ul>
-          <li>Programming Languages, Tools and Technologies used:</li>
+          <li>Programming Languages, Tools and Technologies I`ve used:</li>
 
           <div className="tools--icons">
             <i className="devicon-javascript-plain colored"></i>

@@ -12,6 +12,12 @@ body {
   color: #333333;
 }
 
+@media (max-width: 615px) {
+  .portofolio--container {
+    width: fit-content;
+  }
+}
+
 /* Set header styles */
 header {
   background-color: #212121;
@@ -198,6 +204,11 @@ footer ul li a:hover {
 
 i {
   font-size: 100px;
+}
+
+.tools--icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .certification--container a {
