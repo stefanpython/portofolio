@@ -69,7 +69,7 @@ section#projects ul li a:hover::before {
   margin-left: 5%;
 }
 
-#name {
+#name-display {
   font-family: "Dancing Script", cursive;
   margin-left: 10%;
   max-width: 20em;
@@ -81,5 +81,52 @@ section#projects ul li a:hover::before {
   }
   to {
     transform: scaleX(1);
+  }
+}
+
+/* Pulsating arrow*/
+
+.arrow-pulsating {
+  position: absolute;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 50px solid #cf1717;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: pulsate 1.5s ease-out;
+  animation-iteration-count: infinite;
+  opacity: 0.5;
+  bottom: 20%;
+  width: 0;
+  height: 0;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+}
+
+@keyframes pulsate {
+  0% {
+    transform: translate(-50%, 0) scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translate(-50%, -0.5rem) scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, 0) scale(1);
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 600px) {
+  .arrow-pulsating {
+    position: inherit;
   }
 }

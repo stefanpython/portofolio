@@ -7,6 +7,7 @@ function Portfolio() {
   const [name, setName] = useState("Welcome, my name is Stefan Andrei.");
   const [loading, setLoading] = useState(true);
   const [displayedName, setDisplayedName] = useState("");
+  const [nameAppeared, setNameAppeared] = useState(false);
 
   useEffect(() => {
     if (loading) {
@@ -19,8 +20,10 @@ function Portfolio() {
         setDisplayedName(name.slice(0, displayedName.length + 1));
       }, 100);
       return () => clearTimeout(timeout);
+    } else if (!nameAppeared) {
+      setNameAppeared(true);
     }
-  }, [name, displayedName, loading]);
+  }, [name, displayedName, loading, nameAppeared]);
 
   return (
     <div className="portofolio--container">
@@ -29,7 +32,12 @@ function Portfolio() {
           <div className="loading-line"></div>
         ) : (
           <div className="welcome--page">
-            <span id="name">{displayedName}</span>
+            <span id="name-display">{displayedName}</span>
+            {nameAppeared && (
+              <div className="arrow-pulsating">
+                <span className="arrow"></span>
+              </div>
+            )}
           </div>
         )}
       </div>
@@ -275,6 +283,7 @@ function Portfolio() {
           </a>
 
           <div className="theodinproject">
+            <h3 style={{ marginLeft: "20px" }}>And:</h3>
             <img src="images/top.png" alt="the odin project logo" />
           </div>
         </div>
@@ -294,11 +303,15 @@ function Portfolio() {
       </section>
 
       <footer>
-        <p>&copy; 2023 - Your Name</p>
+        <p>&copy; 2023 - Stefan Andrei</p>{" "}
+        <a href="https://github.com/stefanpython">
+          <img
+            className="git"
+            alt="git logo"
+            src="https://c.tenor.com/A15H8E1VUh8AAAAM/github-cat.gif"
+          />
+        </a>
       </footer>
-      <h1>aaaaaaaa</h1>
-      <h1>aaaaaaaa</h1>
-      <h1>aaaaaaaa</h1>
     </div>
   );
 }
