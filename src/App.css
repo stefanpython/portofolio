@@ -286,3 +286,11 @@ li {
 #projects h3 {
   color: rgb(163, 93, 7);
 }
+
+#about img {
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}

@@ -20,9 +20,21 @@ function Portfolio() {
 
       <section id="about">
         <h2>About Me</h2>
+        <img src="images/placeholder.png" alt="male placeholder" />
         <p>
-          Insert your introduction or summary of your skills, expertise, and
-          experience here.
+          Hey there! I'm a web developer with expertise in a variety of
+          technologies, including React, JavaScript, Firebase, HTML, CSS, npm,
+          and Visual Studio. I've also got experience using Ubuntu, so I'm
+          comfortable working with different operating systems. I've completed
+          both Harvard's CS50x and CS50w courses, which have given me a solid
+          foundation in computer science concepts and web development.
+          Currently, I'm in the process of finishing The Odin Project, a
+          comprehensive web development curriculum that's been great for
+          expanding my full-stack skills. One of my favorite things to do is
+          work on personal projects using the tools mentioned above, and I've
+          got around a dozen of them under my belt. I'm always excited to take
+          on new projects and challenges, and I think my skills and experience
+          make me a great asset to any team.
         </p>
       </section>
 
