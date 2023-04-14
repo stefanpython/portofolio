@@ -26,7 +26,6 @@ section#projects ul li a:hover::before {
 }
 
 /* Project image animate*/
-
 #projects img {
   animation: pulse 4s ease-in-out infinite;
 }
@@ -43,6 +42,7 @@ section#projects ul li a:hover::before {
   }
 }
 
+/* About section*/
 #about h2 {
   font-size: 48px;
   font-weight: bold;
@@ -57,5 +57,29 @@ section#projects ul li a:hover::before {
   }
   100% {
     text-shadow: 0 0 40px #ff6382;
+  }
+}
+
+.loading-line {
+  width: 80%;
+  height: 5px;
+  background-color: #cf1717;
+  animation: loading 4s linear infinite;
+  transform-origin: left;
+  margin-left: 5%;
+}
+
+#name {
+  font-family: "Dancing Script", cursive;
+  margin-left: 10%;
+  max-width: 20em;
+}
+
+@keyframes loading {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
   }
 }

@@ -1,26 +1,46 @@
 import "./App.css";
 import "./Animation.css";
+import { useEffect, useState } from "react";
 import Navbar from "./components/Nav";
 
 function Portfolio() {
+  const [name, setName] = useState("Welcome, my name is Stefan Andrei.");
+  const [loading, setLoading] = useState(true);
+  const [displayedName, setDisplayedName] = useState("");
+
+  useEffect(() => {
+    if (loading) {
+      const timeout = setTimeout(() => {
+        setLoading(false);
+      }, 3500);
+      return () => clearTimeout(timeout);
+    } else if (displayedName.length < name.length) {
+      const timeout = setTimeout(() => {
+        setDisplayedName(name.slice(0, displayedName.length + 1));
+      }, 100);
+      return () => clearTimeout(timeout);
+    }
+  }, [name, displayedName, loading]);
+
   return (
     <div className="portofolio--container">
-      <h1>aaaaaaaa</h1>
-      <h1>aaaaaaaa</h1>
-      <h1>aaaaaaaa</h1>
-      <h1>aaaaaaaa</h1>
-      <h1>aaaaaaaa</h1>
-      <h1>aaaaaaaa</h1>
-      <h1>aaaaaaaa</h1>
-      <h1>aaaaaaaa</h1>
-      <h1>aaaaaaaa</h1>
-      <h1>aaaaaaaa</h1>
-      <h1>aaaaaaaa</h1>
+      <div className="welcome--page">
+        {loading ? (
+          <div className="loading-line"></div>
+        ) : (
+          <div className="welcome--page">
+            <span id="name">{displayedName}</span>
+          </div>
+        )}
+      </div>
+
       <Navbar />
 
       <section id="about">
         <h2>About Me</h2>
         <img src="images/placeholder.png" alt="male placeholder" />
+        <hr />
+        <br />
         <p>
           Hey there! I'm a web developer with expertise in a variety of
           technologies, including React, JavaScript, Firebase, HTML, CSS, npm,
