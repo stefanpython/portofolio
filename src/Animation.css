@@ -73,6 +73,7 @@ section#projects ul li a:hover::before {
   font-family: "Dancing Script", cursive;
   margin-left: 10%;
   max-width: 20em;
+  color: whitesmoke;
 }
 
 @keyframes loading {

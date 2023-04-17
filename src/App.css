@@ -305,6 +305,7 @@ li {
   font-weight: bold;
   color: #333;
   transition: opacity 0.3s ease-out;
+  background: linear-gradient(to bottom, #4b79a1, #283e51);
 }
 
 @media (max-width: 600px) {

@@ -4,7 +4,9 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/Nav";
 
 function Portfolio() {
-  const [name, setName] = useState("Welcome, my name is Stefan Andrei.");
+  const [name, setName] = useState(
+    "Welcome to my website, my name is Stefan Andrei."
+  );
   const [loading, setLoading] = useState(true);
   const [displayedName, setDisplayedName] = useState("");
   const [nameAppeared, setNameAppeared] = useState(false);
